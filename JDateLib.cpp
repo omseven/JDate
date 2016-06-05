@@ -110,7 +110,6 @@ int Date::JYear()
 		sMonth = ((sD) / 31) + 1;
 		sDay = (1 + sD - ((sMonth - 1) * 31));
 	}
-	String stringOne = String(sYear) + "/" + String(sMonth) + "/" + String(sDay);
 
 	return  sYear;
 }
@@ -158,7 +157,7 @@ int Date::JDay()
 		sMonth = ((sD) / 31) + 1;
 		sDay = (1 + sD - ((sMonth - 1) * 31));
 	}
-	String stringOne = String(sYear) + "/" + String(sMonth) + "/" + String(sDay);
+
 	return  sMonth;
 }
 int Date::JMonth()
@@ -205,6 +204,6 @@ int Date::JMonth()
 		sMonth = ((sD) / 31) + 1;
 		sDay = (1 + sD - ((sMonth - 1) * 31));
 	}
-	String stringOne = String(sYear) + "/" + String(sMonth) + "/" + String(sDay);
+
 	return  sDay;
 }
