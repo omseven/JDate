@@ -2,7 +2,7 @@
  Name:		JDateLib.cpp
  Created:	6/2/2016 2:32:14 PM
  Author:	Omid Golmakani
- Editor:	http://www.visualmicro.com
+ https://github.com/omseven/JDate
 */
 
 #include "JDateLib.h"
